@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>PerScholas Lecture Template</title>
+		<meta name="description" content="A lecture template for reveal.js-based PerScholas Lessons">
+		<meta name="author" content="PerScholas">
+		<link rel="stylesheet" href="./resources/css/perscholas-reveal.css"></script>
+	</head>
+
+
+	<body>
+		<div class="reveal">
+			 <!-- Modify the `content.md` file to edit appearance of `index.html`  -->
+			<section data-markdown="./content.md"  
+				data-separator="^-\n-\n"
+				data-separator-vertical="^-\n"
+				data-separator-notes="^Note:"
+				data-charset="utf-8">
+			</section>
+		</div>
+
+
+
+
+
+
+
+
+		<!-- ========================================================= -->
+		<!-- ========================================================= -->
+		<!-- ------------------ Dependencies ------------------------- -->
+		<script src="./resources/lib/js/head.min.js"></script>
+		<script src="./resources/js/reveal.js"></script>
+		<script src="./resources/js/perscholas-reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: './resources/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: './resources/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				]
+			});
+		</script>
+		<!-- ========================================================= -->
+		<!-- ========================================================= -->
+		<!-- --------------------------------------------------------- -->
+	</body>
+</html>
