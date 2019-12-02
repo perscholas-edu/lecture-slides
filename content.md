@@ -49,6 +49,7 @@
     * [Intro part 2](lectures/java/generics/intro-part2/lecture.html)
 
 * **Intro to Design Principles**
+    * [Clean Code](lectures/java/design-principles/clean-code/lecture.html)
     * [the SOLID principles](lectures/java/design-principles/solid-principles/lecture.html)
     * [design patterns](lectures/java/design-principles/design-patterns/lecture.html)
     * [design patterns - creational](lectures/java/design-principles/design-patterns-creational/lecture.html)

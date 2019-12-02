@@ -5,8 +5,11 @@
 -
 -
 # Clean Code
-Any fool can write code a system can understand. Good programmers write code that humans can understand.
-- Martin Fowler
+* Any fool can write code a system can understand. Good programmers write code that humans can understand.
+  - Martin Fowler
+* Good code is better than `truth`, it is `honesty`
+  - Leon Hunter
+
 
 -
 -
@@ -47,7 +50,7 @@ int elapsedTimeInDays;
 
 -
 # Meaningful Descriptive Names
-What is this doing?
+* What is this doing?
 
 ```java
 public List flags() {
@@ -60,9 +63,13 @@ public List flags() {
    return list1;
 }
 ```
+
+
+
 -
 # Meaningful Descriptive Names
 * What is this doing?
+
 ```java
 public List getFlaggedCells() {
    List flaggedCells = new ArrayList();

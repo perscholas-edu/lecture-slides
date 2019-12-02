@@ -547,14 +547,13 @@ startingValue = startingValue + 5; // startingValue is `15`
 
 
 
-
 -
 -
 ### `--` Decrement Operator
 * `--` subtracts 1 from the variable preceding the operator
 ```java
 int startingValue = 10;
-startingValue++; // startingValue is `11`
+startingValue--; // startingValue is `9`
 ```
 
 
@@ -580,18 +579,18 @@ startingValue = startingValue - 5; // startingValue is `5`
 -
 -
 ### Parentheses and Operator Hierarchy
+## [Java order of operations](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html)
 
-[Java order of operations](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html)
-`a && b || c`
- means
-`(a && b) || c`
+* `a && b || c`
+* means
+* `(a && b) || c`
 
 ```java
 4 + 5 * 8 == 44
 (4 + 5) * 8 == 72
 ```
 
-`*, / have higher precedence than +, -`
+* `*`, `/` have higher precedence than `+`, `-`
 
 
 
