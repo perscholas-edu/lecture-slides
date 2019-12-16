@@ -291,8 +291,8 @@ boolean canWalkThroughDoor = doorIsUnlocked || doorIsOpen;
 -
 ### Logical Operators
 #### the _binary_ `||` operator
-* Expression resolves to `true` if both of the operands evaluate to `true`.
-* if left operand is `false`, the operation resolves to `false` without evaluating the operand on the right.
+* Expression resolves to `true` if one of the operands evaluate to `true`.
+* if left operand is `true`, the operation resolves to `true` without evaluating the operand on the right.
 
 
 

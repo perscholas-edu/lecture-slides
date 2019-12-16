@@ -17,6 +17,7 @@
     * [arrays](lectures/java/fundamental-programming-structures/arrays/lecture.html)
     * [input and output](lectures/java/fundamental-programming-structures/input-and-output/lecture.html)
     * [exceptions, assertions, and logging](lectures/java/fundamental-programming-structures/exceptions-assertions-logging/lecture.html)
+    * [functional-interfaces](lectures/java/fundamental-programming-structures/functional-interfaces/lecture.html)
 
 
 * **Test Driven Development**
@@ -39,6 +40,7 @@
     * [brief overview](lectures/java/collections/brief-overview/lecture.html)
     * [arrays vs arraylists](lectures/java/collections/arrays-vs-arraylists/lecture.html)
     * [iterator and collection interface](lectures/java/collections/iterator-and-collection-interface/lecture.html)
+    * [arraylist and unmodifiablelist](lectures/java/collections/arraylist-unmodifiablelist-set/lecture.html)
     * [lists and sets](lectures/java/collections/brief-overview/lecture.html)
     * [maps](lectures/java/collections/maps/lecture.html)
     * [stacks, linkedlists, and queues](lectures/java/collections/brief-overview/lecture.html)

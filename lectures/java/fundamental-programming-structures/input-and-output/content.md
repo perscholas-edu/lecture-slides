@@ -2,21 +2,32 @@
 
 -
 -
-##Input and Output
+## Input and Output
 
 -
 
-###Reading Input
-
-To read console input, you first construct a Scanner that is attached to System.in
+### Reading Input
+* `Scanner` is a class in `java.util` package used for obtaining the input of the primitive types like `int`, `double`, and strings.
+* According to `geeksforgeeks.org`
+    * `Scannner` easiest way to read input in a Java program
+* To read from the system's keyboard, pass the `InputStream` from `System` into the constructor of a new `Scanner`.
 
 ```
-Scanner in = new Scanner(System.in);
+OutputStream outputStream = System.out;
+InputStream inputStream = System.in;
 
-System.out.print("What is your name? ");
-String name = in.nextLine();
+Scanner scanner = new Scanner(inputStream);
+
+outputStream.print("What is your name?");
+String name = inputStream.nextLine();
 ```
+
 ```
+What is your name?
+>>: 
+```
+
+
 String firstName = in.next(); //read a single word
 ```
 
