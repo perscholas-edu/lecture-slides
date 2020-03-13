@@ -15,6 +15,11 @@
         * `python -m SimpleHTTPServer 8080`
     * Python 3
         * `python -m http.server 8080`
+    * With [higher permissions on Windows](https://stackoverflow.com/questions/56974927/permission-denied-trying-to-run-python-on-windows-10)
+        * Python 2
+            * `winpty python.exe -m SimpleHTTPServer 8080`
+        * Python 3
+            * `winpty python.exe -m http.server 8080`
 * After running the application, navigate to `localhost:8080` from a browser to view the slides.
 * The application can be killed by executing the following command:
 

@@ -1,98 +1,150 @@
-# Angular Introduction
+# Title of Lecture
+
+
+
+
+
+
+
 
 -
 -
+## Lecture Overview
+* Topic 1
+* Topic 2
+* Topic 3
 
-## Front End Frameworks
 
-Front-End frameworks allow us to better organize our application logic and work with larger applications in a better smarter way
 
-Examples
 
-* React
-* Vue
-* Angular
 
--
--
 
-## Characteristics
 
-* App Framework
-* Two Versions
-	* AngularJS (V1.0)
-	* Angular (V2 and up)
-* Component Based
-* Modular
+
+
+
+
 
 -
 -
+### Topic 1
+* Sub-topic 1A
+* Sub-topic 1B
+* Sub-topic 1C
 
-## Features
+-
+#### Sub-topic 1A
+* Discussion point 1A.1
+* Discussion point 1A.2
+* Discussion point 1A.3
 
-* Data Binding
-* Templates
-* CLI
+
+-
+#### Sub-topic 1B
+* Discussion point 1B.1
+* Discussion point 1B.2
+* Discussion point 1B.3
+
+
+-
+#### Sub-topic 1C
+* Discussion point 1C.1
+* Discussion point 1C.2
+* Discussion point 1C.3
+
+
+
+
+
+
+
+
+
+
 
 -
 -
-
-## Angular CLI
-
-* Command line interface
-* Scaffold an application
-* Highly Opinionated
-* Requires (npm, node etc)
+### Topic 2
+* Sub-topic 2A
+* Sub-topic 2B
+* Sub-topic 2C
 
 -
+#### Sub-topic 2A
+* Discussion point 2A.1
+* Discussion point 2A.2
+* Discussion point 2A.3
 
-### Main CLI Commands
-
-* ng create _{app name}_
-* ng serve
-* ng build
-* ng g _{TYPE NAME}_
 
 -
--
+#### Sub-topic 2B
+* Discussion point 2B.1
+* Discussion point 2B.2
+* Discussion point 2B.3
 
-## NodeJS
-
-* Node is a Javascript runtime (runs javascript)
-* Developed by google
-* Has a built-in server so we can run a server with node
-* Heavily used by angular under the hood
 
 -
+#### Sub-topic 2C
+* Discussion point 2C.1
+* Discussion point 2C.2
+* Discussion point 2C.3
 
-### Node Angular
 
-__Angular Development Server__
 
-* Angular includes a development server that we will run during application development and will allow us to perform hot reload, get information about our angular application, etc.
-* When we are finished with our angular application we can compile it and it will output a html, css and javascript project that we can then server as though we were never even using Angular
 
--
--
 
-## Typescript
 
-* A programming language that transpiles to Javascript, it is similar but adds a lot of missing features that Javascript doesn't have, most notably things that make the langueage more static and similar to established backed languages such as Java or C++
+
+
+
+
+
+
 
 -
 -
+### Topic 3
+* Sub-topic 3A
+* Sub-topic 3B
+* Sub-topic 3C
 
-## Core Principles
 
-### Modules
-
-* An Angular applications is split up into modules, while the app will always have 1 root module, it will typically have many other feature modules which will contain feature-specific pieces of code
-* Modules can import and export functionality from other modules
-* We create modules using the angular CLI
 
 -
+#### Sub-topic 3A
+* Discussion point 3A.1
+* Discussion point 3A.2
+* Discussion point 3A.3
 
-### Components
 
-* Angular Modules are split up into components, they will (usually) contain a TypeScirpt file where we can put our logic, an html template where we can put our html, and a styles file where we put our styles
-* View encapsulation is a pretty complex topic and we won't go into it too deeply in the context of this course
+-
+#### Sub-topic 3B
+* Discussion point 3B.1
+* Discussion point 3B.2
+* Discussion point 3B.3
+
+
+-
+#### Sub-topic 3C
+* Discussion point 3C.1
+* Discussion point 3C.2
+* Discussion point 3C.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+-
+## Lecture Summary
+* Topic 1 Summary
+* Topic 2 Summary
+* Topic 3 Summary
