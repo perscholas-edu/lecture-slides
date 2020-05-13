@@ -56,7 +56,7 @@ html:-moz-full-screen-ancestor {
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
-.reveal .slides section img { /* logo displayed on first slide */
+ .reveal .slides section:first-of-type img { /* logo displayed on first slide */
   width: 25%;
   height:25%;
 }
