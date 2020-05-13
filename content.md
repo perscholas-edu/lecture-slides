@@ -86,11 +86,11 @@
     * [design patterns - structural](lectures/java/design-principles/design-patterns-structural/lecture.html)
     * [design patterns - behavioral](lectures/java/design-principles/design-patterns-behavioral/lecture.html)
 
-* **Intro to Web Development** 
-    * [restful architecture](lectures/java/web/restful/lecture.html)
-    * [restful Spring](lectures/java/web/restful-spring/lecture.html)
-    * [Spring dependency injection](lectures/java/web/spring-dependency-injection/lecture.html)
-    * [Spring Web MVC](lectures/java/web/spring-web-mvc/lecture.html)
+* **Intro to Spring** 
+    * [restful architecture](lectures/java/spring/restful/lecture.html)
+    * [restful Spring](lectures/java/spring/restful-spring/lecture.html)
+    * [Spring dependency injection](lectures/java/spring/spring-dependency-injection/lecture.html)
+    * [Spring Web MVC](lectures/java/spring/spring-web-mvc/lecture.html)
 
 
 

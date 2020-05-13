@@ -24,7 +24,7 @@
 
 
 -
-#### Web Component Structure
+#### Web Component Package Structure
 * `./src/components/`
     * The purpose of this directory is to containerize all _components_ to be created
         * A component is typically a single _web-element_, with its own _style_, and potentially _javascript_.
@@ -32,3 +32,16 @@
     * The purpose of this directory is to containerize the `component1` webelement implementation.
 * `./src/components/component1`
     * The purpose of this directory is to containerize the `component1` webelement implementation.
+* `./src/components/component2`
+    * The purpose of this directory is to containerize the `component2` webelement implementation.
+
+
+
+-
+### Web Component Structure
+* `./src/components/component1`
+    * The purpose of this directory is to containerize the `component1` webelement implementation.
+* `./src/components/component1/component1.js`
+    * The purpose of this file is to containerize the _view_ of the `component1` webelement
+* `./src/components/component1/component1.css`
+    * The purpose of this file is to containerize the _style_ of the _view_ of the `component1` webelement
