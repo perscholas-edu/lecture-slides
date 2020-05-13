@@ -92,6 +92,10 @@
     * [Spring dependency injection](lectures/java/spring/spring-dependency-injection/lecture.html)
     * [Spring Web MVC](lectures/java/spring/spring-web-mvc/lecture.html)
 
+* **Intro to WebLogic**
+    * [what is](lectures/java/weblogic/what-is/lecture.html)
+    * [server services](lectures/java/weblogic/server-services/lecture.html)
+
 
 
 
