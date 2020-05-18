@@ -1,6 +1,41 @@
 # WebLogic Server Architecture
 
 
+-
+## What is WebLogic Server?
+* WebLogic Server is an application server
+* An _application server_ is a platform for developing and deploying multitier distributed enterprise applications.
+* WebLogic Server centralizes application services such as Web server functionality, business components, and access to backend enterprise systems.
+* WebLogic Server implements J2EE, the Java Enterprise standard.
+
+-
+## What is Java
+* Java is a network-savvy, object-oriented programming language, and J2EE includes component technologies for developing distributed objects. 
+* This functionality adds a second dimension to the WebLogic Server application architecture—a layering of application logic, with each layer selectively deployed among WebLogic Server J2EE technologies.
+
+
+-
+### WebLogic Uses
+* It uses technologies such as caching and connection pooling to improve resource use and application performance.
+
+
+
+-
+### WebLogic Provides
+* WebLogic Server also provides enterprise-level security and powerful administration facilities.
+
+
+-
+## WebLogic Operates in 
+* WebLogic Server operates in the middle tier of a multitier (or n-tier) architecture.
+
+
+
+-
+-
+#### Multitier Architecture
+* A multitier architecture determines where the software components that make up a computing system are executed in relation to each other and to the hardware, network, and users.
+* Choosing the best location for each software component lets you develop applications faster; eases deployment and administration; and provides greater control over performance, utilization, security, scalability, and reliability.
 
 
 -
