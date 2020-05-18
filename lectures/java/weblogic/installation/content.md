@@ -6,19 +6,26 @@
 -
 -
 ## Overview
-1. Create Oracle Software Delivery Cloud Account
-2. Navigate To Oracle Software Delivery Cloud
-2. Search and Find Product
-3. Install the WebLogic Server Binary
-4. Search and find product `WebLogic Server, Standard Edition`
-5. 
-6. Resource
-
+* Obtaining The Executable
+* Installing The Executable
 
 
 
 -
-## Create Oracle Software Delivery Cloud Account
+### Obtaining Binary
+1. Create Oracle Software Delivery Cloud Account
+2. Navigate To Oracle Software Delivery Cloud
+3. Search and Find Product
+4. Select Product
+5. Select Edition
+6. Select Release
+7. License Agreement
+8. Download
+
+
+
+-
+#### 1. Create Oracle Software Delivery Cloud Account
 * Click [here](https://profile.oracle.com/myprofile/account/create-account.jspx?pid=edelivery&nexturl=https%3A//edelivery.oracle.com/osdc/faces/Home.jspx) or navigate to the link below to create an Oracle Software Delivery Cloud Account
   * `https://profile.oracle.com/myprofile/account/create-account.jspx?pid=edelivery&nexturl=https%3A//edelivery.oracle.com/osdc/faces/Home.jspx`
 
@@ -26,7 +33,7 @@
 
 
 -
-## Navigate To Oracle Software Delivery Cloud
+#### 2. Navigate To Oracle Software Delivery Cloud
 * Click [here](https://edelivery.oracle.com) or navigate to the link below to access the Delivery Cloud
   * `https://edelivery.oracle.com`
 * Review the site usage license agreement and click the Accept button to continue.
@@ -34,98 +41,62 @@
 
 
 -
-## Search and Find Product
+#### 3. Search and Find Product
 * In Oracle Software Delivery Cloud, in the Filter Products By list of checkboxes, be sure Programs is checked.
 * In the Product field, enter this string:
   * `Oracle WebLogic Server, Standard Edition`
 
-![](./imgs/wls_obtain_1.gif)
+![](./imgs/downloading/wls_obtain_1.gif)
 
 
 -
-## Select Product
+#### 4. Select Product
 * On Oracle Software Delivery Cloud, in the `Select Products` pulldown, select this checkbox:
   * `Microsoft Windows x64 (64-bit)`
 * Click the `Continue` button
 
-![](./imgs/wls_obtain_2.gif)
+![](./imgs/downloading/wls_obtain_2.gif)
 
 
 
 -
-## 
+#### 5. Select Edition
 * Expand the entry Oracle WebLogic Server Standard Edition by clicking the arrow to the left of the release name.
+* Click the Continue button.
 
-
-![](./imgs/wls_obtain_3.gif)
-
-
--
--
-### Topic 1
-* Sub-topic 1A
-* Sub-topic 1B
-* Sub-topic 1C
-
--
-#### Sub-topic 1A
-* Discussion point 1A.1
-* Discussion point 1A.2
-* Discussion point 1A.3
+![](./imgs/downloading/wls_obtain_3.gif)
 
 
 -
-#### Sub-topic 1B
-* Discussion point 1B.1
-* Discussion point 1B.2
-* Discussion point 1B.3
+#### 6. Select Release
+* For Available Release, turn off all the checkboxes except for the version of the Oracle WebLogic Server that is listed in the Oracle Certifications for use with the JD Edwards EnterpriseOne Development Client.
 
+* Click the Continue button.
 
--
-#### Sub-topic 1C
-* Discussion point 1C.1
-* Discussion point 1C.2
-* Discussion point 1C.3
-
-
-
-
-
-
-
-
+![](./imgs/downloading/wls_obtain_4.gif)
 
 
 
 -
--
-### Topic 2
-* Sub-topic 2A
-* Sub-topic 2B
-* Sub-topic 2C
+#### 7. License Agreement
+* On Oracle Standard Terms and Restrictions, read the license agreement, click the checkbox if you accept, and click the Continue button.
 
--
-#### Sub-topic 2A
-* Discussion point 2A.1
-* Discussion point 2A.2
-* Discussion point 2A.3
+![](./imgs/downloading/wls_obtain_4.gif)
+
 
 
 -
-#### Sub-topic 2B
-* Discussion point 2B.1
-* Discussion point 2B.2
-* Discussion point 2B.3
+#### 8. Download
+* On the File Download screen, click the link for the Oracle WebLogic Server.
+* Save the downloaded file to your computer.
+* Extract the contents of the downloaded file.
+* For WebLogic Server 12.2.1 the download should consist of this file or a similar version number:
+    * `fmw_12.2.1.0.0_wls.jar`
 
 
 -
-#### Sub-topic 2C
-* Discussion point 2C.1
-* Discussion point 2C.2
-* Discussion point 2C.3
-
-
-
+#### 8. Download
+![](./imgs/downloading/wls_obtain_5.gif)
 
 
 
@@ -138,46 +109,16 @@
 
 -
 -
-### Topic 3
-* Sub-topic 3A
-* Sub-topic 3B
-* Sub-topic 3C
-
+### Installing The Executable
 
 
 -
-#### Sub-topic 3A
-* Discussion point 3A.1
-* Discussion point 3A.2
-* Discussion point 3A.3
-
-
--
-#### Sub-topic 3B
-* Discussion point 3B.1
-* Discussion point 3B.2
-* Discussion point 3B.3
-
+#### Identify JDK Bin location
+* Execute `which java` from a _bash_ terminal to identify where the jdk has been installed.
+* In the example below, the `bin` fullpath is `/c/Program Files/Amazon Corretto/jdk1.8.0_222/bin`
+![](./imgs/installing/which-java.png)
 
 -
-#### Sub-topic 3C
-* Discussion point 3C.1
-* Discussion point 3C.2
-* Discussion point 3C.3
-
-
-
-
-
-
-
-
-
-
-
-
-
--
--
-## Resources
-* https://docs.oracle.com/cd/E61420_01/doc.92/e55648/install_wls.htm#EOIWD405
+#### Run the `WebLogic Server 12.2.1.jar`
+* From the java `bin` directory, execute the cli argument below
+* `java -jar <path_to_wls_file>\fmw_12.1.3.0.0_wls.jar`
