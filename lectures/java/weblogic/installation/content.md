@@ -12,13 +12,14 @@
 3. Install the WebLogic Server Binary
 4. Search and find product `WebLogic Server, Standard Edition`
 5. 
+6. Resource
 
 
 
 
 -
 ## Create Oracle Software Delivery Cloud Account
-Click [here](https://profile.oracle.com/myprofile/account/create-account.jspx?pid=edelivery&nexturl=https%3A//edelivery.oracle.com/osdc/faces/Home.jspx) or navigate to the link below to create an Oracle Software Delivery Cloud Account
+* Click [here](https://profile.oracle.com/myprofile/account/create-account.jspx?pid=edelivery&nexturl=https%3A//edelivery.oracle.com/osdc/faces/Home.jspx) or navigate to the link below to create an Oracle Software Delivery Cloud Account
   * `https://profile.oracle.com/myprofile/account/create-account.jspx?pid=edelivery&nexturl=https%3A//edelivery.oracle.com/osdc/faces/Home.jspx`
 
 
@@ -29,7 +30,7 @@ Click [here](https://profile.oracle.com/myprofile/account/create-account.jspx?pi
 * Click [here](https://edelivery.oracle.com) or navigate to the link below to access the Delivery Cloud
   * `https://edelivery.oracle.com`
 * Review the site usage license agreement and click the Accept button to continue.
-![](./imgs/wls_obtain_1.gif)
+
 
 
 -
@@ -38,16 +39,25 @@ Click [here](https://profile.oracle.com/myprofile/account/create-account.jspx?pi
 * In the Product field, enter this string:
   * `Oracle WebLogic Server, Standard Edition`
 
+![](./imgs/wls_obtain_1.gif)
+
+
+-
+## Select Product
+* On Oracle Software Delivery Cloud, in the `Select Products` pulldown, select this checkbox:
+  * `Microsoft Windows x64 (64-bit)`
+* Click the `Continue` button
+
 ![](./imgs/wls_obtain_2.gif)
 
 
 
+-
+## 
+* Expand the entry Oracle WebLogic Server Standard Edition by clicking the arrow to the left of the release name.
 
 
-
-
-
-
+![](./imgs/wls_obtain_3.gif)
 
 
 -
@@ -169,7 +179,5 @@ Click [here](https://profile.oracle.com/myprofile/account/create-account.jspx?pi
 
 -
 -
-## Lecture Summary
-* Topic 1 Summary
-* Topic 2 Summary
-* Topic 3 Summary
+## Resources
+* https://docs.oracle.com/cd/E61420_01/doc.92/e55648/install_wls.htm#EOIWD405
