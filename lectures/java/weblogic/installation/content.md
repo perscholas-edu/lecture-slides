@@ -51,19 +51,14 @@
 
 -
 #### 4. Select Product
-* On `Oracle Software Delivery Cloud` window, in the `Select Products` pulldown, select this checkbox:
-  * `Microsoft Windows x64 (64-bit)`
-* Click the `Continue` button
-
+* On `Oracle Software Delivery Cloud` window, in the add the download package (DL) named `Oracle WebLogic Server Standard Edition 12.2.1.2.0 ( Oracle WebLogic Server Standard Edition )`
 ![](./imgs/downloading/wls_obtain_2.gif)
 
 
 
 -
 #### 5. Select Edition
-* Expand the entry `Oracle WebLogic Server Standard Edition` by clicking the arrow to the left of the release name.
-* Click the `Continue` button.
-
+* Select the `Checkout` option from the top right of the window.
 ![](./imgs/downloading/wls_obtain_3.gif)
 
 
