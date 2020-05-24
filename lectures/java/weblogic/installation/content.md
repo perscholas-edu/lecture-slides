@@ -158,3 +158,6 @@
 #### Launch Configuration Window
 * On the `Installation Complete` window, select the `Automatically Launch the Configuration` checkbox.
 ![](./imgs/installing/wls_end_installation_2.gif)
+
+
+<!-- https://www.itechtics.com/run-programs-administrator/ -->
