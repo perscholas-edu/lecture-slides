@@ -62,7 +62,7 @@ https://www.youtube.com/watch?v=hPsq3H0LNj8
 * Upon executing the file, log in with your `Oracle Software Delivery Cloud Account`. -->
 
 
-
+-
 ### Download Oracle WebLogic Server
 * Click [here](https://www.oracle.com/middleware/technologies/fusionmiddleware-downloads.html#license-lightbox) or navigate to the link below to begin downloading Oracle WebLogic Serve
     * https://www.oracle.com/middleware/technologies/fusionmiddleware-downloads.html#license-lightbox
