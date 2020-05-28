@@ -3,40 +3,12 @@
 -
 -
 ## Overview
-* Create Oracle Software Delivery Cloud Account
 * Install `WSL` (Windows Subsystem for Linux)
 * Install Ubuntu on Windows
-* Download Java SE 7 or Higher
-
--
-###  Download Java SE 7 or Higher
-* Click [here](https://www.oracle.com/java/technologies/javase-jdk14-downloads.html) or navigate to the link below to download JDK14
-    * https://www.oracle.com/java/technologies/javase-jdk14-downloads.html
-
-
-
--
-## download java ee
-https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
-
-
-
-
--
-## download and install java ee
-https://www.youtube.com/watch?v=hPsq3H0LNj8
-
-* After downloadingh and installing java EE, navigate to the `C:\Users\CTAdmin\Downloads\wls\attempt3\java_ee_sdk-8u1\glassfish5\glassfish\bin\
-
--
-## Stopping a process on a specified port
-[How can you find out which process is listening on a port on Windows?](https://stackoverflow.com/a/35312370/2414323)
-
--
-### Create Oracle Software Delivery Cloud Account
-* Click [here](https://profile.oracle.com/myprofile/account/create-account.jspx?pid=edelivery&nexturl=https%3A//edelivery.oracle.com/osdc/faces/Home.jspx) or navigate to the link below to create an `Oracle Software Delivery Cloud Account`
-  * `https://profile.oracle.com/myprofile/account/create-account.jspx?pid=edelivery&nexturl=https%3A//edelivery.oracle.com/osdc/faces/Home.jspx`
-
+* Download Java EE 8 or Higher
+* Create Oracle Software Delivery Cloud Account
+* Download `WLS` (WebLogic Server)
+* Running `WLS`
 
 
 -
@@ -53,6 +25,31 @@ https://www.youtube.com/watch?v=hPsq3H0LNj8
 * After sometime the message `Installation Successful! The environment will start momentarily…` will display.
 * `bash` commands become available.
 * For example, `bash myscript.sh`.
+
+-
+## download java ee
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+
+
+-
+## download and install java ee
+* https://www.youtube.com/watch?v=hPsq3H0LNj8
+* After downloadingh and installing java EE, navigate to the `C:\Users\CTAdmin\Downloads\wls\attempt3\java_ee_sdk-8u1\glassfish5\glassfish\bin\`
+
+
+
+-
+## Stopping a process on a specified port
+[How can you find out which process is listening on a port on Windows?](https://stackoverflow.com/a/35312370/2414323)
+
+
+
+
+-
+### Create Oracle Software Delivery Cloud Account
+* Click [here](https://profile.oracle.com/myprofile/account/create-account.jspx?pid=edelivery&nexturl=https%3A//edelivery.oracle.com/osdc/faces/Home.jspx) or navigate to the link below to create an `Oracle Software Delivery Cloud Account`
+  * `https://profile.oracle.com/myprofile/account/create-account.jspx?pid=edelivery&nexturl=https%3A//edelivery.oracle.com/osdc/faces/Home.jspx`
+
 
 
 <!-- -
